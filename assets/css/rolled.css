@@ -1,10 +1,20 @@
+.inner > h1 {
+  text-shadow: 1px 1px 1px #312450;
+}
 
+.inner > p {
+  color: white;
+}
+
+.inner a {
+  color: #B0E0E6;
+}
 
 .skills {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30px !important;
+  padding: 30px 0 !important;
 }
 
 .skills > * {
@@ -23,8 +33,9 @@
 .icon.major {
   position: relative;
   margin: 0 20px;
-  width: 5em;
-  height: 5em;
+  width: 4em;
+  min-width: 4em;
+  height: 4em;
   display: flex;
   align-items: center;
   justify-content: center;
